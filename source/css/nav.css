@@ -96,6 +96,10 @@ nav .nav-item-codepen {
     background-image: url(https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png);
 }
 
+nav .nav-item-zhihu {
+    background-image: url(/theme-img/zhihu.png);
+}
+
 @media (prefers-color-scheme: dark) {
     nav .nav-item-github {
         background-image: url(/theme-img/github-mark-light.png);

@@ -41,9 +41,44 @@ body {
     padding-right: 16px;
 }
 
-.content table, .content video {
+
+/* ------------------------- table ------------------------------- */
+
+/* .content table, .content video {
     display: block;
+} */
+
+.content table{
+    width: 100%;
+    /* position: center; */
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+.content table th, .content table tr, .content table td{
+    text-align: center;
+    padding: 5pt;
+}
+.content tbody tr:nth-child(odd){
+    background-color: var(--white-1);
+}
+
+
+/* 对代码table的兼容 */
+td.code {
+    text-align: left !important;
+}
+figure table{
+    display: block !important;
+}
+figure table tr{
+    background-color: #fbfbfd !important;
+}
+
+
+
+
+/* ----------------------------- end table -------------------------------- */
 
 .content video {
     max-width: 100%;
@@ -51,14 +86,17 @@ body {
 }
 
 .content ul, .content ol {
-    padding: 0 16px;
-    padding-left: 32px;
+    padding: 10px;
+    padding-left: 50px;
     max-width: calc(800px - 16px * 2);
 }
 
-.content ul *, .content ol * {
-    padding: 0;
+.content ul li {
+    padding: 4px;
 }
+/* .content ul *, .content ol * {
+    padding: 5;
+} */
 
 .content blockquote {
     max-width: calc(800px - 16px * 2);

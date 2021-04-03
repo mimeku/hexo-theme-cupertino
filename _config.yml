@@ -1,10 +1,11 @@
 # REMEMBER TO EDIT THIS BEFORE DEPLOY!!!
 
 # the path to your blog's icon:
-favicon: /favicon.png
+favicon: /theme-img/favicon.png
 
 # the path to manifest.json
 manifest: /manifest.json
+
 
 # show excerpt on post list
 show_excerpt: false
@@ -17,40 +18,44 @@ nav:
   items:
     # these items will display as a link
     Archives: /archives
+    Categories: /categories
     Friends: /friends
-    Projects: /projects
+    # Projects: /projects
     About: /about
     # these will be automatically be an icon
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
+    GitHub: https://github.com/mimeku
+    # CodePen: https://codepen.io/mrwillcom
+    # Patreon: https://www.patreon.com/MrWillCom
+    Zhihu: https://www.zhihu.com/people/guo-dong-yu-62
 
 # footer items
 footer:
   # the title
   Blog:
     # the items after the title, display as links
-    Blog: /
+    # Blog: /
     Archives: /archives
     Friends: /friends
-    Projects: /projects
-    Resume: /resume
+    # Projects: /projects
+    # Resume: /resume
     About: /about
-    RSS: /atom.xml
+    # RSS: /atom.xml
+
   # also the title
-  Projects:
+  #Projects:
     # the items
-    Transmister: https://github.com/transmister
-    CSS&JS Windows UWP XAML Controls: https://github.com/MrWillCom/css-and-js-windows-uwp-xaml-controls
-    Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
-    GitHub Dark Mode: https://github.com/MrWillCom/github-dark-mode
+ #   Transmister: https://github.com/transmister
+ #   CSS&JS Windows UWP XAML Controls: https://github.com/MrWillCom/css-and-js-windows-uwp-xaml-controls
+ #   Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
+ #   GitHub Dark Mode: https://github.com/MrWillCom/github-dark-mode
+
   # the title
   Me:
     # items
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Email: mailto:mr.will.com@outlook.com
+    GitHub: https://github.com/mimeku
+    # CodePen: https://codepen.io/mrwillcom
+    # Patreon: https://www.patreon.com/MrWillCom
+    Email: mailto:mimeku59@gmail.com
 
 # the license your posts under
 license: CC BY-NC 4.0

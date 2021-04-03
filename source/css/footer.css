@@ -40,4 +40,12 @@ footer .title {
 
 footer .item {
     display: block;
+    line-height: 32px;
+    color: darkgray;
+}
+
+footer .power {
+    color: darkgray;
+    text-align: center;
+    font-size: 10px;
 }
