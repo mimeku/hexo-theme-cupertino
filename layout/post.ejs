@@ -49,6 +49,9 @@
     <div class="divider"></div>
 
     <div class="content">
+        <% if (page.mathjax == true){ %>
+            <%- partial('mathjax') %>
+        <% } %>
         <%- page.content %>
     </div>
 

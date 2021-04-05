@@ -62,4 +62,9 @@ license: CC BY-NC 4.0
 # the link of your license
 license_link: https://creativecommons.org/licenses/by-nc/4.0
 
+# MathJax Support
+mathjax:
+  enable: true
+  cdn: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 # REMEMBER TO EDIT THIS BEFORE DEPLOY!!!
