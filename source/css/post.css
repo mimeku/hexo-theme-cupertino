@@ -23,6 +23,13 @@ body {
     padding: 0 16px;
 }
 
+.content h1{
+    font-size: 2em;
+}
+.content h2{
+    font-size: 1.5em;
+}
+
 .content .highlight {
     overflow-x: auto;
     overflow-y: hidden;
@@ -76,9 +83,8 @@ figure table tr{
 }
 
 
-
-
 /* ----------------------------- end table -------------------------------- */
+
 
 .content video {
     max-width: 100%;
@@ -92,6 +98,10 @@ figure table tr{
 }
 
 .content ul li {
+    padding: 4px;
+}
+
+.content ol li{
     padding: 4px;
 }
 /* .content ul *, .content ol * {
