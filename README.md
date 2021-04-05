@@ -1,3 +1,10 @@
+
+# Update
+
+- 2021.04.05：增加了$\LaTeX{}$支持，需要在post的markdown文件开头加入参数`mathjax: true`开启支持
+- 2021.04.03：目前增加了Categories页面，更新了Friends与About页面显示效果
+
+
 # Hexo Theme Cupertino
 
 The Hexo Blog Theme Cupertino
@@ -25,10 +32,4 @@ theme: cupertino
 
 See [docs/configuration.md](./docs/configuration.md)
 
-
-
-# Update
-
-- 2021.04.05：增加了$\LaTeX{}$支持，需要在post的markdown文件开头加入参数`mathjax: true`开启支持
-- 2021.04.03：目前增加了Categories页面，更新了Friends与About页面显示效果
 
